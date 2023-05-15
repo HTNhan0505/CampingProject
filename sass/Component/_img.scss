@@ -1,0 +1,28 @@
+// service-img
+.service-box__img {
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    transition: all .5s;
+    top: 15%;
+    z-index: 999;
+}
+// explore-img
+
+.img-btn:hover {
+    transform: rotateY(180deg);
+}
+// explore-list-img
+.explore-item__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+// footer-img
+.footer-wrap__download--img {
+    object-fit: cover;
+    width: 300px;
+    height: 40px;
+    cursor: pointer;
+}

@@ -1,0 +1,96 @@
+.explore-heading__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.explore-heading__wrap--info {
+    position: relative;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background: url(../../asets/Group\ 313.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    transition: .5s;
+}
+.explore-heading__wrap--content {
+    position: absolute;
+    bottom: -40px;
+    padding: 20px;
+    min-width: 200px;
+    background: $white-color;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.explore-heading__wrap--header {
+    display: flex;
+    align-items: center;
+}
+.explore-heading__wrap--header img {
+    grid-column: 1/2;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: .3s all;
+}
+.explore-heading__wrap--header img:hover {
+    transform: translateY(-10px);
+}
+.explore-heading__wrap--header-sub {
+    margin-left: 1rem;
+}
+.explore-heading__wrap--header-sub .activity {
+    font-size: 1.5rem;
+    color: $black-text-color;
+    letter-spacing: 1px;
+    font-size: 600;
+    text-transform: uppercase;
+}
+.explore-heading__wrap--info:hover .explore-heading__wrap--content {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(120px) translateY(-80px);
+}
+.explore-heading__wrap--title {
+    z-index: 99;
+    font-size: 1.6rem;
+    font-weight: 800;
+    width: 320px;
+    text-align: center;
+}
+
+
+
+
+
+.explore-list {
+    position: relative;
+    z-index: 9999;
+}
+.explore-item {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    border-radius: 20px;
+    height: 100%;
+    position: relative;
+    justify-content: space-around;
+    padding: 2rem 0 6rem 0;
+    &__heading {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.explore-list__wrap {
+    margin-top: 30px;
+}

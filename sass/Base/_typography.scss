@@ -1,0 +1,107 @@
+// header-title
+.header-content__title {
+    font-size: 4rem;
+    color: $white-color;
+    text-align: center;
+    padding: 0 5rem;
+    margin-bottom: 1rem;
+    font-family:  "archivo",sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 5rem;
+    transition: all .5s;
+}
+.header-content__des {
+    text-align: center;
+    font-size: 1rem;
+    color: $white-color;
+    width: 80%;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 0 4rem;
+    font-weight: 400;
+}
+// service-section
+.service-box__title {
+    font-weight: 900;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    text-align: center;
+    color: $black-text-color;
+}
+.service-box__des {
+    text-align: center;
+    font-size: 0.95rem;
+    font-weight: 400;
+    color: $black-text-color;
+    line-height: 1.4rem;
+    padding: 0 1rem;
+}
+.service-box__des-2 {
+    text-align: center;
+    font-size: 0.95rem;
+    font-weight: 400;
+    color: $black-text-color;
+    line-height: 1.4rem;
+    padding: 0 2rem;
+}
+// explore-heading
+
+.explore-item__price {
+    position: absolute;
+    text-align: center;
+    bottom: -28px;
+    z-index: 99999;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    background: $white-color;
+    color: $pink-main-color;
+    font-weight: 500;
+}
+.explore-item__title {
+    margin-top: 3rem;
+    font-weight: 900;
+    font-size: 1rem;
+    text-align: center;
+    color: $black-text-color;
+}
+.explore-item__des {
+    width: 81%;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+}
+// contact-heading
+.contact-form__heading {
+    margin-top: 4rem;
+    font-size: 1.8rem;
+    color: $black-text-color;
+    font-weight: 900;
+    transition: all .5s;
+}
+.contact-form__sub {
+    color: $black-text-color;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    width: 67%;
+}
+// footer
+.footer-title {
+    font-size: 1rem;
+    color: $black-text-color;
+    font-weight: 900;
+    line-height: 1.4rem;
+}
+.footer-text {
+    font-size: 0.9rem;
+    color: $black-text-color;
+    line-height: 1.4rem;
+    opacity: 0.8;
+    transition: all .3s;
+}
+.footer-hover:hover {
+    cursor: pointer;
+    transition: all .3s;
+    color: $pink-main-color
+}
